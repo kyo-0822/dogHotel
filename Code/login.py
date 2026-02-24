@@ -4,6 +4,7 @@ from database import db
 from PyQt5 import uic
 from PyQt5.QtWidgets import QApplication, QMainWindow, QLineEdit
 from signup import SignupWindow
+from doghotel import DogHotel
 
 
 base_dir = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))

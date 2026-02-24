@@ -1,7 +1,6 @@
-import sys
 import os
 from PyQt5 import uic
-from PyQt5.QtWidgets import QApplication, QMainWindow, QMessageBox, QLineEdit
+from PyQt5.QtWidgets import QMainWindow, QMessageBox, QLineEdit
 from database import db
 
 base_dir = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
